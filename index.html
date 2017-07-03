@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery backgroundParallax.js</title>
+	<style>
+		.panel {
+			height: 600px;
+		}
+	</style>
+</head>
+<body>
+	
+	<div class="panel" data-src="images/01.png"></div>
+	<div class="panel" data-src="images/02.png"></div>
+	<div class="panel" data-src="images/03.png"></div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="jQuery.parallaxBackground.min.js"></script>
+	<script>
+		$('.panel').backgroundParallax();
+	</script>
+</body>
+</html>
