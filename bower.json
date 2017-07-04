@@ -1,0 +1,26 @@
+{
+  "name": "jquery.backgroundparallax.js",
+  "homepage": "https://github.com/AminulBD/jQuery.backgroundParallax.js",
+  "authors": [
+    "Aminul Islam <me@aminul.net>"
+  ],
+  "description": "A small jQuery plugin to make parallax background image animation.",
+  "main": "jQuery.parallaxBackground.js",
+  "keywords": [
+    "parallax",
+    "jquery-plugin",
+    "background-image",
+    "background"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
